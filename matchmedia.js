@@ -18,7 +18,7 @@ window.matchMedia = (function ( window, document, undefined ) {
         info;
 
     if ( nativeMatchMedia ) {
-        //return nativeMatchMedia;
+        return nativeMatchMedia;
     }
 
     // styleMedia polyfill
